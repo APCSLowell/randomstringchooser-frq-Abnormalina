@@ -8,7 +8,7 @@ private List<String> words;
      words.add(singleWord);
    }
  }
-  public string getNext(){
+  public String getNext(){
     if(words.size() >0){
       return words.remove((int)(Math.random()*words.size()));
     }
