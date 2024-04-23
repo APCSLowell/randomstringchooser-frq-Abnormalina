@@ -1,7 +1,7 @@
 import java.util.*;
 public class RandomStringChooser
 {
-private String[] words; 
+private List[]<String> words; 
  public RandomStringChooser(String[] wordArray){
    words = new ArrayList<String>();
    for(String singleWord:wordArray){
